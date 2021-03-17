@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.eva-heading {
+  padding: 1.5em;
+  margin: 0 auto;
+  color: rgb(247, 243, 243);
+  /* text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c; */
+}
+
+.eva-heading>h1 {
+  font-size: 500%;
+}
+
+.eva-heading>h2 {
+  font-size: 300%;
+}
+
+.eva-heading__title {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 500%;
+  transform: scale(0.9, 1.8);
+  padding: 0.2em;
+  letter-spacing: -.05em;
+}
+
+.eva-heading__title-double.jo {
+  text-shadow: .22em .055em #b92c25;
+}
+
+.eva-heading__title-double.ha {
+  text-shadow: .22em .055em #fb581f;
+}
+
+.eva-heading__title-double.q {
+  text-shadow: .22em .055em #22a6bf;
+}
+
+.eva-heading__title-double.shin {
+  text-shadow: .22em .055em #ffffff;
+}
+
+.eva-heading__episode-number {
+  font-family: Arial;
+  /* font-family: sans-serif; */
+  font-weight: bold;
+  font-size: 250%;
+  letter-spacing: -.02em;
+  transform: scale(1, 2);
+}
+
+.eva-heading__episode-title {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 200%;
+  letter-spacing: -.05em;
+  transform: scale(1.5, 2.25);
+  /* line-height: 1em; */
+  text-align: right;
+  position: absolute;
+  top: 8em;
+  right: 4.5em;
+}
