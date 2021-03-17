@@ -8,7 +8,7 @@ body {
 }
 
 .eva-heading {
-  padding: 1.5em;
+  padding: 32px;
   margin: 0 auto;
   color: rgb(247, 243, 243);
   /* text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c; */
@@ -26,7 +26,7 @@ body {
   font-family: 'Times New Roman';
   font-weight: bold;
   font-size: 500%;
-  transform: scale(0.9, 1.8);
+  transform: scale(1, 1.8);
   padding: 0.2em;
   letter-spacing: -.05em;
 }
@@ -51,9 +51,11 @@ body {
   font-family: Arial;
   /* font-family: sans-serif; */
   font-weight: bold;
-  font-size: 250%;
+  font-size: 350%;
   letter-spacing: -.02em;
+  line-height: 1.5em;
   transform: scale(1, 2);
+  margin: 0.1em 0 26px 0.3em;
 }
 
 .eva-heading__episode-title {
@@ -65,6 +67,6 @@ body {
   /* line-height: 1em; */
   text-align: right;
   position: absolute;
-  top: 8em;
-  right: 4.5em;
+  top: 10em;
+  right: 5em;
 }
